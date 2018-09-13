@@ -204,12 +204,12 @@ function statesQuestion(){
   guess++;
 }
 
-// nameQuestion();
-// bornQuestion();
-// dogQuestion();
-// gummyQuestion();
-// icyQuestion();
-//heightQuestion();
+nameQuestion();
+bornQuestion();
+dogQuestion();
+gummyQuestion();
+icyQuestion();
+heightQuestion();
 counrtyQuestion();
 statesQuestion();
 
