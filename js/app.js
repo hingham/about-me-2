@@ -173,19 +173,19 @@ function statesQuestion(){
   guess = 1;
   while (guess < 8){
 
-  var guessState = prompt('Guess what states I have visited in the past year:').toLowerCase();
-  console.log(printGuess + guessState);
+    var guessState = prompt('Guess what states I have visited in the past year:').toLowerCase();
+    console.log(printGuess + guessState);
 
-  for (var i = 0; i < usStates.length; i++){
-    console.log('The first part of the for loop');
-    if (usStates[i].trim() === guessState){
-      console.log(i);
-      alert('You are correct!');
-      guess = 'done';
-      numCorrect += 1;
-      console.log(totalCorrect + numCorrect);
-      console.log(guess);
-      break;
+    for (var i = 0; i < usStates.length; i++){
+      console.log('The first part of the for loop');
+      if (usStates[i].trim() === guessState){
+        console.log(i);
+        alert('You are correct!');
+        guess = 'done';
+        numCorrect += 1;
+        console.log(totalCorrect + numCorrect);
+        console.log(guess);
+        break;
       }
     }
   }
@@ -204,14 +204,14 @@ function statesQuestion(){
   guess++;
 }
 
-// nameQuestion();
-// bornQuestion();
-// dogQuestion();
-// gummyQuestion();
-// icyQuestion();
-// heightQuestion();
-// counrtyQuestion();
-// statesQuestion();
+nameQuestion();
+bornQuestion();
+dogQuestion();
+gummyQuestion();
+icyQuestion();
+heightQuestion();
+counrtyQuestion();
+statesQuestion();
 
 alert('You are finished with the quiz! Thanks for coming and getting to know me. You answered ' + numCorrect + ' out of 8 questions correctly.');
 
