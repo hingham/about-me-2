@@ -204,14 +204,14 @@ function statesQuestion(){
   guess++;
 }
 
-nameQuestion();
-bornQuestion();
-dogQuestion();
-gummyQuestion();
-icyQuestion();
-heightQuestion();
-counrtyQuestion();
-statesQuestion();
+// nameQuestion();
+// bornQuestion();
+// dogQuestion();
+// gummyQuestion();
+// icyQuestion();
+// heightQuestion();
+// counrtyQuestion();
+// statesQuestion();
 
 alert('You are finished with the quiz! Thanks for coming and getting to know me. You answered ' + numCorrect + ' out of 8 questions correctly.');
 

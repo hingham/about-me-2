@@ -13,8 +13,7 @@ header {
     font-weight: bold;
     height: 100px;
     line-height: 100px;
-    text-align: center;
-    
+    text-align: center;   
 }
 
 h1 {
@@ -34,9 +33,17 @@ h3{
 }
 
 img {
+    border: 4px solid rgb(118, 133, 122); 
+    border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
     margin: 20px;
-    padding: 10px;
+    padding: 0px;
+    width: 250px;
 }
+
+section{
+    margin: 50px;
+}
+
 main{
    background: rgb(248, 248, 248); 
    color: rgb(72, 75, 73);
@@ -48,17 +55,19 @@ main{
 }
 
 .list {
-    display: inline-block;
-
+    text-align: left;
+    display: inline-block
 }
 
-ul, ol {
+#firstlist #secondlist {
     margin: 20px; 
-    width: 400px;;   
+    max-width: 400px;
+    padding: 50px;
 }
 
 ul{
     list-style-type: disc;
+    margin-bottom: 100px;
 }
 
 ol{
@@ -68,6 +77,14 @@ ol{
 li{
     margin-left: 0px;
     padding: 20px;
+}
+
+.links a{
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-color: rgb(100, 150, 250);
+    text-size: 26px;
+    margin: 10px;    
 }
 
 
